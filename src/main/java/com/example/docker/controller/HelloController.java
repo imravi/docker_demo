@@ -18,4 +18,5 @@ public class HelloController {
   public ResponseEntity<String> test() {
     return ResponseEntity.ok("Test Function to test this api");
   }
+
 }
