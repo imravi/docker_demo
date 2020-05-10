@@ -13,4 +13,9 @@ public class HelloController {
   public ResponseEntity<String> welcome() {
     return ResponseEntity.ok("Welcome to the test api");
   }
+
+  @GetMapping("/test")
+  public ResponseEntity<String> test() {
+    return ResponseEntity.ok("Test Function to test this api");
+  }
 }
