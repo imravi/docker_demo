@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build https://github.com/imravi/docker_demo.git
+      run: docker build . --file Dockerfile --tag dockertest:$(date +%s)
