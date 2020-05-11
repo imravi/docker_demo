@@ -1,6 +1,6 @@
 FROM gradle
 
-RUN gradle build
+RUN gradle clean build
 
 FROM openjdk:latest
 
